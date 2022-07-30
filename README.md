@@ -11,8 +11,9 @@ This is a landing page
  ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
  
  ### Things learnt from this project
- - Work efficiently not hard
- - Use reuseable class
+ - Know how to work efficiently not hard
+     - Use reuseable class
+ - Good colour shades with black color only 
      
 ### Time taken to finish the project
 
