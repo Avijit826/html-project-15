@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
 
 *{
     padding: 0;
     margin: 0;
 }
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     background-color: #111111;
 }
@@ -49,14 +49,17 @@ nav ul{
     font-weight: 300;
     width: 35em;
 }
-.hero-txt button{
+.btn{
+
     font-size: 15px;
     font-weight: 500;
     color: #fff;
     padding: 10px 25px;
-    margin-top: 3em;
     background-color: #c91b28;
     border: 0;
+}
+.hero-txt button{
+    margin-top: 3em;
 }
 .intro{
     position: relative;
@@ -126,8 +129,6 @@ nav ul{
     text-align: center;
 
 }
-.work-wrap{
-}
 .work{
     width: 330px;
     padding-top: 25px;
@@ -145,4 +146,83 @@ nav ul{
    color: rgba(255, 255, 255, 0.743); 
    text-align: center;
    padding: 15px 0;
+}
+.projects{
+    margin: 2em 15em;
+    display: flex;
+    justify-content: space-between;
+}
+.projects h2{
+    font-weight: 800;
+}
+ p{
+    font-size: 14px;
+   color: rgba(255, 255, 255, 0.743);
+   padding: 15px 0;
+}
+
+.proj-wrap{
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+.project img{
+    height: 350px;
+    padding: 90px 30px;
+    background-color: #1e1e1e;
+}
+.project h3{
+    font-size: 25px;
+    margin-top: 10px;
+    font-weight: 800;
+}
+.project h6{
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #ff3343;
+}
+.project h6 i{
+    padding-left: 5px;
+}
+.contact{
+    margin: 2em 15em;
+    padding: 60px;
+    background-color: #1e1e1e;
+    display: flex;
+    gap: 15em;
+    align-items: center;
+}
+.con-txt{
+    width: 50em;
+}
+.contact h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+.btm{
+    padding:3em 0;
+    display: flex;
+    gap: 5em;
+    justify-content: center;
+}
+.btm a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+footer{
+    background-color: #181818;
+    display: flex;
+    align-items: center;
+    padding: 20px 15em;
+}
+footer>img{
+    height: 70px;
+}
+.soci img{
+    margin-left: 33em;
+    height: 20px;
 }
