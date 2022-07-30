@@ -16,7 +16,7 @@ This is a landing page
      
 ### Time taken to finish the project
 
-Total it takes 6 hours to finish it.
+Total it takes 5 hours to finish it.
 
 ### Project Preview
 
