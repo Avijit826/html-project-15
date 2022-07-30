@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background-color: #111111;
+}
+nav img{
+    height: 80px;
+}
+nav{
+    margin: 2em 5em;
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    margin-left: 45em;
+    gap: 5em;
+    list-style-type: none;
+    font-size: 15px;
+}
+.hero{
+    margin: 0 10em;
+    display: flex;
+
+}
+.hero img{
+    height: 700px;
+}
+.hero-txt{
+    margin-top: 13em;
+}
+.hero-txt h6{
+    font-size: 20px;
+    color: #ff3343;
+}
+.hero-txt h2{
+    font-size: 60px;
+    padding: 20px 0;
+    font-weight: 600;
+}
+.hero-txt p{
+    font-size: 20px;
+    font-weight: 300;
+    width: 35em;
+}
+.hero-txt button{
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    padding: 10px 25px;
+    margin-top: 3em;
+    background-color: #c91b28;
+    border: 0;
+}
+.intro{
+    position: relative;
+}
+.bgc{
+    position: absolute;
+    background-color: #181818;
+    height: 60em;
+    width: 60em;
+    z-index: -1;
+    top: -7em;
+}
+.cards{
+
+    margin: 7em 0;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+.card:nth-child(2){
+    background-color: #c91b28;
+}
+.card:nth-child(2) h6{
+    color: #fff;
+}
+.card{
+    width: 250px;
+    padding: 40px;
+    background-color: #1e1e1e;
+}
+.card img{
+    padding-top: 10px;
+    height: 70px;
+
+}
+.card h3{
+    font-size: 25px;
+    padding: 20px 0;
+}
+.card p{
+    font-size: 20px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.751);
+    
+}
+.card h6{
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #ff3343;
+}
+.card h6 i{
+    padding-left: 5px;
+}
+.works{
+    width: 330px;
+    height: 330px;
+}
+.works h1{
+    padding-top: 70px;
+    font-size: 100px;
+    font-weight: 900;
+    color: #ff3343;
+    text-align: center;
+}
+.works h2{
+    text-align: center;
+
+}
+.work-wrap{
+}
+.work{
+    width: 330px;
+    padding-top: 25px;
+    height: 110px;
+    background-color: #1e1e1e;
+    margin-bottom: 2em;
+}
+.work h3{
+    font-size: 45px;
+    text-align: center;
+    color: #ff3343;
+}
+.work p{
+   font-size: 18px;
+   color: rgba(255, 255, 255, 0.743); 
+   text-align: center;
+   padding: 15px 0;
+}
